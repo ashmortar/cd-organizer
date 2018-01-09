@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cd-organizer.iml" filepath="$PROJECT_DIR$/.idea/modules/cd-organizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cd-organizer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cd-organizer_main.iml" group="cd-organizer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cd-organizer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cd-organizer_test.iml" group="cd-organizer" />
     </modules>
   </component>
 </project>
