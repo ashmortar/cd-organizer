@@ -1,0 +1,30 @@
+
+{{#partial "content"}}
+
+    <h1>CD Organizer!</h1>
+
+    {{#if cds}}
+        <h3>Your Collection:</h3>
+        <table style="width:100%" id="myTable">
+            <tr>
+                <th>Artist</th>
+                <th>Album Title</th>
+                <th>Year</th>
+                <th>Genre</th>
+            </tr>
+
+            {{#each cds }}
+                <tr>
+                    <td>{{artist}}</td>
+                    <td>{{title}}</td>
+                    <td>{{year}}</td>
+                    <td>{{genre}}</td>
+                </tr>
+            {{/each}}
+        </table>
+    {{else}}
+        <p>No CDs!</p>
+    {{/if}}
+{{/partial}}
+
+{{> layout.hbs}}
